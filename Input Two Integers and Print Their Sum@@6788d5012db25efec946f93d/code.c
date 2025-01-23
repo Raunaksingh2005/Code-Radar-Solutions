@@ -1,6 +1,5 @@
 int main() {
-    int a;
-    int b;
+    int a,b;
     scanf("%d",&a);
     scanf("%d",&b);
     printf("sum: %d", a+b);
