@@ -2,12 +2,11 @@
 int main() {
     int a,b;
     scanf("&d&d",&a,&b);
-    c=a>b;
-    if(c){
-        printf("True");
+    if(a>b){
+        printf("True\n");
     }
     else{
-        printf("False");
+        printf("False\n");
     }
     return 0;
 }
