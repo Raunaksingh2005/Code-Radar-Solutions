@@ -11,9 +11,9 @@ int main() {
                 case 1:
                     printf("True\n");
                     break;
-                default:
-                    printf("False\n");
-                    break;
+        default:
+            printf("False\n");
+            break;
             }
             break;
     }
