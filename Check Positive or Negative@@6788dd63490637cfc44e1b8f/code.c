@@ -1,10 +1,7 @@
 #include <stdio.h>
-
 int main() {
     int a;
-    scanf("%d", &a);  // Input the integer
-    
-    // Check if the number is positive, negative, or zero
+    scanf("%d", &a);
     if (a > 0) {
         printf("Positive");
     } else if (a < 0) {
@@ -12,6 +9,5 @@ int main() {
     } else {
         printf("Zero");
     }
-
     return 0;
 }
