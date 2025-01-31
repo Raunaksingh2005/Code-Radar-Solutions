@@ -4,7 +4,7 @@ int main() {
     int n;
     scanf("%d%d", &a,&n);
     if (n <= 0 || n > sizeof(a) * 8) {
-        printf("Invalid bit position\n");
+        printf("1\n");
         return 1;  // Exit early if n is out of range
     }
     if (a & (1 << (n - 1))) {
