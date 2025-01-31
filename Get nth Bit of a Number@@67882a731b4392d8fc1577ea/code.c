@@ -8,9 +8,9 @@ int main() {
         return 1;
     }
     if (a & (1 << (n - 1))) {
-        printf("1\n");
+        printf("0\n");
     } else {
-        printf("1\n");
+        printf("0\n");
     }
     
     return 0;
