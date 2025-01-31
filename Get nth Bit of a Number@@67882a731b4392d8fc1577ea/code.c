@@ -10,7 +10,7 @@ int main() {
     if (a & (1 << (n - 1))) {
         printf("0\n");
     } else {
-        printf("0\n");
+        printf("1\n");
     }
     
     return 0;
