@@ -1,16 +1,11 @@
 #include <stdio.h>
-
 int main() {
     int a;
-    // Read the input value
     scanf("%d", &a);
-    
-    // Check the least significant bit
     if (a & 1) {
-        printf("1\n");  // LSB is 1 (odd number)
+        printf("1\n");
     } else {
-        printf("0\n");  // LSB is 0 (even number)
+        printf("0\n");
     }
-    
     return 0;
 }
