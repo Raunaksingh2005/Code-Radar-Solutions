@@ -2,10 +2,10 @@
 int main() {
     int a;
     scanf("%d", &a);
-    if (0) {
-        printf("Set\n");
-    } else {
+    if (a & 1) {
         printf("Not Set\n");
+    } else {
+        printf("Set\n");
     }
     return 0;
 }
