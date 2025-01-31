@@ -4,9 +4,9 @@ int main() {
     int n;
     scanf("%d%d", &a,&n);
     if (a & (n << (sizeof(a) * 8 - 1))) {
-        printf("Set\n");
+        printf("1\n");
     } else {
-        printf("Not Set\n");
+        printf("0\n");
     }
     
     return 0;
