@@ -1,11 +1,7 @@
 #include <stdio.h>
 int main(){
-    int a;
-    int b;
+    int a,b;
     scanf("%d%d",&a,&b);
-    return a & ~(1 << b);
-    printf("%d\n");
-    
+    printf("%d",a&~(1<<b));
     return 0;
-
 }
