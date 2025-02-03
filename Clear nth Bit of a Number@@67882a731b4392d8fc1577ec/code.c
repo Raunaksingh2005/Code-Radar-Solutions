@@ -1,16 +1,11 @@
 #include <stdio.h>
-
-int clearNthBit(int num, int n) {
-    return num & ~(1 << n);
-}
-
-int main() {
-    int num ; // Binary: 11101
-    int n ;    // Clear the 2nd bit
-
-    num = clearNthBit(num, n);
-    
-    printf("%d\n", n, num);
+int main(){
+    int a;
+    int b;
+    scanf("%d%d",&a,&b);
+    return a & ~(1 << b);
+    printf("%d\n", a, b);
     
     return 0;
+
 }
