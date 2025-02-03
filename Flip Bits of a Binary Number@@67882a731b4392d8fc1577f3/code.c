@@ -4,7 +4,7 @@ int main() {
     unsigned int n;
     scanf("%u", &n);
 
-    unsigned int flipped = ~n;
+    unsigned int flipped = ~n+1;
     
    
     printf("%u\n", flipped);
