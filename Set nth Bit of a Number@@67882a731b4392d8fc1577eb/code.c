@@ -1,15 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    int a, b, bit_position;
+    int a, b;
     scanf("%d %d", &a, &b);
-    scanf("%d", &bit_position);
-    a = a | (1 << bit_position);
-    b = b | (1 << bit_position);
-
-    // Print the result
-    printf("%d\n", bit_position, a);
-    printf("%d\n", bit_position, b);
-
+    printf("%d\n",a|1<<b);
     return 0;
 }
