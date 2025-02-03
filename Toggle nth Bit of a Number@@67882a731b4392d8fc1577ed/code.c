@@ -1,13 +1,8 @@
 #include <stdio.h>
-
 int main() {
-    int a, b;
-    scanf("%d%d", &a, &b);
-
-    // Toggle the nth bit using XOR
-    a = a ^ (1 << b);
-    
-    printf("%d", a);
-    
+    int n;
+    scanf("%d", &n);
+    int lowest_set_bit = n & -n;
+    printf("%d\n", lowest_set_bit);  
     return 0;
 }
