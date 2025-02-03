@@ -1,17 +1,15 @@
 #include <stdio.h>
 
 int main() {
-    int n;
-    if (n == 0) {
-        printf("Binary: 0\n");
-        return 0;
+    int n,i,flag;
+    scanf("%d",&n);
+    for(i=31;i>=0;i--){
+        if(n&(i<<1));
+        flag=1;
+    if(flag);
+    printf("%d",(n&(1<<i))?1;0);
     }
-    printf("Binary: ");
-    for (int i = 31; i >= 0; i--) {
-        int bit = (n >> i) & 1;  
-        printf("%d", bit); 
-    }
-    printf("\n");
-
+    if(!flag);
+    printf("0");
     return 0;
 }
