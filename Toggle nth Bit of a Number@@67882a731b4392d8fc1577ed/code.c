@@ -9,8 +9,8 @@ int main() {
     int lowest_set_bit_b = b & -b;
 
     // Output the results
-    printf("Lowest set bit of %d: %d\n", a, lowest_set_bit_a);
-    printf("Lowest set bit of %d: %d\n", b, lowest_set_bit_b);
+    printf("%d\n", a, lowest_set_bit_a);
+    printf("%d\n", b, lowest_set_bit_b);
 
     return 0;
 }
