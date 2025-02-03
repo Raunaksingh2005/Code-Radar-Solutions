@@ -1,16 +1,15 @@
 #include <stdio.h>
 
 int main() {
-    int a, b;
-    scanf("%d%d", &a, &b);
+    int n;
 
-    // Find the lowest set bit of both numbers
-    int lowest_set_bit_a = a & -a;
-    int lowest_set_bit_b = b & -b;
+    scanf("%d", &n);
 
-    // Output the results
-    printf("%d\n", a, lowest_set_bit_a);
-    printf("%d\n", b, lowest_set_bit_b);
+    // Find the lowest set bit using n & -n
+    int lowest_set_bit = n & -n;
+
+    // Print the result
+    printf("%d\n", lowest_set_bit);
 
     return 0;
 }
