@@ -1,10 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    int n;
-    scanf("%d", &n);
-    int flipped = ~n + 1;
-    printf("%d\n", flipped);
+    int a;
+    scanf("%d", &a);
+    printf("%d\n", ~a);
     
     return 0;
 }
