@@ -5,8 +5,8 @@ int clearNthBit(int num, int n) {
 }
 
 int main() {
-    int num = ; // Binary: 11101
-    int n = ;    // Clear the 2nd bit
+    int num ; // Binary: 11101
+    int n ;    // Clear the 2nd bit
 
     num = clearNthBit(num, n);
     
