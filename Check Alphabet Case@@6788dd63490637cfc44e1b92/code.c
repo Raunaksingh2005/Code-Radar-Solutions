@@ -5,6 +5,8 @@ int main() {
     if(a=A){
         printf("Uppercase");
     }
-    printf("%s", welcome());
+    else{
+        printf("Lowercase");
+    }
     return 0;
 }
