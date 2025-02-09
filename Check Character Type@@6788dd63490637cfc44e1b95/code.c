@@ -6,6 +6,8 @@ int main() {
         printf("Vowel");
     }else if(c>=0){
         printf("Digit");
+    }else{
+        printf("Special Charecter");
     }
     return 0;
 }
