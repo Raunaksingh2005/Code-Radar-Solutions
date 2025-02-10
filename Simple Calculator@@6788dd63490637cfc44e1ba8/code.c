@@ -1,24 +1,34 @@
-#iclude<stdio.h>
+#include <stdio.h>
+
 int main() {
-    int a,b;
+    int a, b;
     char c;
-    scanf("%d%d%c",&a,&b,&c);
+
+    // Take input for two integers and a character
+    scanf("%d%d%c", &a, &b, &c);
+
+    // Switch statement to check which operation to perform
     switch(c) {
-        case '+':
-            printf("%d",a+b);
+        case '+':  // Addition
+            printf("%d\n", a + b);
             break;
-        case '-':
-            printf("%d",a-b);
+        case '-':  // Subtraction
+            printf("%d\n", a - b);
             break;
-        case '*':
-            printf("%d",a*b);
+        case '*':  // Multiplication
+            printf("%d\n", a * b);
             break;
-        case '/':
-            printf("%d",a/b);
+        case '/':  // Division
+            if (b != 0) {
+                printf("%d\n", a / b);
+            } else {
+                printf("Division by zero error\n");
+            }
             break;
         default:
-            printf("Invalid\n");
+            printf("Invalid operation\n");
     }
 
     return 0;
 }
+
