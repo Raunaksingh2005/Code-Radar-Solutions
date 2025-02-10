@@ -4,8 +4,8 @@ int main() {
     int a, b;
     char c;
 
-    // Take input for two integers and a character
-    scanf("%d%d%c", &a, &b, &c);
+    // Take input for two integers and a character (with a space before %c to read operator correctly)
+    scanf("%d %d %c", &a, &b, &c);
 
     // Switch statement to check which operation to perform
     switch(c) {
@@ -26,7 +26,7 @@ int main() {
             }
             break;
         default:
-            printf("error");
+            printf("Invalid operation\n");
     }
 
     return 0;
