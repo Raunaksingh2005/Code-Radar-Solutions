@@ -38,7 +38,8 @@ int main() {
             printf("30");
             break;
         case 12:
-            printf("31")
+            printf("31");
+            break;
         default:
             printf("Invalid\n");
     }
