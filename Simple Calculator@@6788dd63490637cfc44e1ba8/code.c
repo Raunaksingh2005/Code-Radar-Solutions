@@ -1,34 +1,24 @@
-#include <stdio.h>
-
-int main() {
-    int a, b;
+#include<stdio.h>
+int main(){
+    int a,b;
     char c;
-
-    // Take input for two integers and a character (with a space before %c to read operator correctly)
-    scanf("%d %d %c", &a, &b, &c);
-
-    // Switch statement to check which operation to perform
-    switch(c) {
-        case '+':  // Addition
-            printf("%d\n", a + b);
-            break;
-        case '-':  // Subtraction
-            printf("%d\n", a - b);
-            break;
-        case '*':  // Multiplication
-            printf("%d\n", a * b);
-            break;
-        case '/':  // Division
-            if (b != 0) {
-                printf("%d\n", a / b);
-            } else {
-                printf("error\n");
-            }
-            break;
+    scanf("%d%d%c",&a,&b,&c);
+    switch(c){
+        case "+":
+        printf("%d",a+b);
+        break;
+        case "-":
+        printf("%d",a-b);
+        break;
+        case "*":
+        printf("%d",a*b);
+        break;
+        case"/":
+        printf("%d"a/b);
+        break;
         default:
-            printf("Invalid operation\n");
+        printf("Error");
+        break;
     }
-
     return 0;
 }
-
