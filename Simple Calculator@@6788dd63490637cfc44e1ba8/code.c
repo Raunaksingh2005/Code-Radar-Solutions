@@ -19,6 +19,7 @@ int main(){
             break;
         default:
             printf("Error");
+            break;
     }
     return 0;
 }
