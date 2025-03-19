@@ -7,7 +7,8 @@ int main(){
         for(int j=1;j<=a;j++){
             printf("%d ",j);
         }
-    }else{
+    }
+    else{
         printf("nil");
     }
         printf("\n");
