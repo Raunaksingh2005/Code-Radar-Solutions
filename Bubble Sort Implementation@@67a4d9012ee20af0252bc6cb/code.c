@@ -15,9 +15,6 @@ void printArray(int arr[], int n) {
         printf("%d ", arr[i]);  // Added space for proper formatting
     }
 }
-
-
-
 int main() {
     int n;
     scanf("%d", &n);
