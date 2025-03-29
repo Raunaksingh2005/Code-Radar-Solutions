@@ -16,6 +16,8 @@ void printArray(int arr[], int n) {
     }
 }
 
+
+
 int main() {
     int n;
     scanf("%d", &n);
